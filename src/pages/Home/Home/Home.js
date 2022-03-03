@@ -5,6 +5,7 @@ import Banner from "../Banner/Banner";
 import BannerImage from "../BannerImage/BannerImage";
 import FoodCetagory from "../FoodCetagory/FoodCetagory";
 import NewsLetter from "../NewsLetter/NewsLetter";
+import Products from "../Products/Products";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Banner />
       <BannerImage />
       <FoodCetagory />
+      <Products />
       <NewsLetter />
       <Footer />
     </div>

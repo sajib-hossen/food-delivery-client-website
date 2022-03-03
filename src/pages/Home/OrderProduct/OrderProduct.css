@@ -1,0 +1,9 @@
+.order_container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(80, 72, 72, 0.555);
+
+
+}
