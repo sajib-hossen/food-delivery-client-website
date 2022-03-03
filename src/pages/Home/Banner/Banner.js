@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Carousel, Container } from "react-bootstrap";
-import img1 from "../../../images/anna-8Ak1i3KLthc-unsplash.jpg";
-import img2 from "../../../images/jj-ying-9Qwbfa_RM94-unsplash.jpg";
-import img3 from "../../../images/markus-spiske-A_6KbwLuVgk-unsplash.jpg";
+import img1 from "../../../images/baner1.png";
+import img2 from "../../../images/banner2.png";
+import img3 from "../../../images/banner3.png";
 
 const Banner = () => {
   const [index, setIndex] = useState(0);

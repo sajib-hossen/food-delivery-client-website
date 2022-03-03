@@ -11,8 +11,8 @@ const NewsLetter = () => {
       <div>
         <Container className="text-center newsletter mb-5">
           <div>
-            <div>
-              <p> Our NewsLetter </p>
+            <div className="mt-4">
+              <p className="mt-4"> Our NewsLetter </p>
               <h2> Subscribe NewsLetter</h2>
               <h6>
                 The Food at your doorstep .Why starve when you have us . You

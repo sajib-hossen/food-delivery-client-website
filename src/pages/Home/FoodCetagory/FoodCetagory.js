@@ -3,10 +3,12 @@ import { Card, Container } from "react-bootstrap";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import cartimage from "../../../images/anna-8Ak1i3KLthc-unsplash.jpg";
-import cartimage2 from "../../../images/jj-ying-9Qwbfa_RM94-unsplash.jpg";
-import cartimage3 from "../../../images/markus-spiske-A_6KbwLuVgk-unsplash.jpg";
-import cartimage4 from "../../../images/pexels-mart-production-7706574.png";
+import cartimage1 from "../../../images/bief-burger.png";
+import cartimage2 from "../../../images/delicious-pizza.png";
+import cartimage3 from "../../../images/eggs-burger.png";
+import cartimage4 from "../../../images/french-fires.png";
+import cartimage5 from "../../../images/rice-bowl.png";
+import cartimage6 from "../../../images/sandwich.png";
 import "./FoodCetagory.css";
 
 const FoodCetagory = () => {
@@ -60,45 +62,9 @@ const FoodCetagory = () => {
           <Slider {...settings}>
             <div>
               <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src={cartimage} />
+                <Card.Img variant="top" src={cartimage1} />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </div>
-            <div>
-              <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src={cartimage} />
-                <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </div>
-            <div>
-              <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src={cartimage} />
-                <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </div>
-            <div>
-              <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src={cartimage} />
-                <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                  <Card.Title>Bief Burger</Card.Title>
                   <Card.Text>
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
@@ -110,7 +76,7 @@ const FoodCetagory = () => {
               <Card style={{ width: "18rem" }}>
                 <Card.Img variant="top" src={cartimage2} />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                  <Card.Title>Delicious Pizza</Card.Title>
                   <Card.Text>
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
@@ -122,7 +88,7 @@ const FoodCetagory = () => {
               <Card style={{ width: "18rem" }}>
                 <Card.Img variant="top" src={cartimage3} />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                  <Card.Title>Eggs Bendict Burger</Card.Title>
                   <Card.Text>
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
@@ -134,7 +100,43 @@ const FoodCetagory = () => {
               <Card style={{ width: "18rem" }}>
                 <Card.Img variant="top" src={cartimage4} />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                  <Card.Title>French fries</Card.Title>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </div>
+            <div>
+              <Card style={{ width: "18rem" }}>
+                <Card.Img variant="top" src={cartimage5} />
+                <Card.Body>
+                  <Card.Title>Sandwich</Card.Title>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </div>
+            <div>
+              <Card style={{ width: "18rem" }}>
+                <Card.Img variant="top" src={cartimage6} />
+                <Card.Body>
+                  <Card.Title>Rice Bowl</Card.Title>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </div>
+            <div>
+              <Card style={{ width: "18rem" }}>
+                <Card.Img variant="top" src={cartimage4} />
+                <Card.Body>
+                  <Card.Title>French Fries</Card.Title>
                   <Card.Text>
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
