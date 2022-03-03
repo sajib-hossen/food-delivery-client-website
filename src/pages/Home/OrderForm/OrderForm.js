@@ -12,12 +12,14 @@ const OrderForm = () => {
   const { user } = useAuth();
 
   const onSubmit = (data) => {
-    axios.post("http://localhost:5000/orders", data).then((res) => {
-      if (res.data.insertedId) {
-        alert("Your Order Details Successfully Added");
-      }
-      reset();
-    });
+    axios
+      .post("https://evening-oasis-39423.herokuapp.com/orders", data)
+      .then((res) => {
+        if (res.data.insertedId) {
+          alert("Your Order Details Successfully Added");
+        }
+        reset();
+      });
   };
   return (
     <div className="orderForm">

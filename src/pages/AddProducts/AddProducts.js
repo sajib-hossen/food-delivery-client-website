@@ -8,13 +8,15 @@ import addimage from "../../images/sendimage.svg";
 const AddProducts = () => {
   const { register, handleSubmit, reset } = useForm();
   const onSubmit = (data) => {
-    axios.post("http://localhost:5000/products", data).then((res) => {
-      if (res.data.insertedId) {
-        alert("Successfully this product added");
-        reset();
-      }
-      console.log(res);
-    });
+    axios
+      .post("https://evening-oasis-39423.herokuapp.com/products", data)
+      .then((res) => {
+        if (res.data.insertedId) {
+          alert("Successfully this product added");
+          reset();
+        }
+        console.log(res);
+      });
   };
   return (
     <div className="add_container">

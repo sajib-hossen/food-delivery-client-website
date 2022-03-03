@@ -7,7 +7,7 @@ const OrderProduct = () => {
   const { orderId } = useParams();
   const [product, setProduct] = useState({});
   useEffect(() => {
-    fetch(`http://localhost:5000/products/${orderId}`)
+    fetch(`https://evening-oasis-39423.herokuapp.com/products/${orderId}`)
       .then((res) => res.json())
       .then((data) => setProduct(data));
   }, []);
