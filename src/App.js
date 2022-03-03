@@ -8,6 +8,7 @@ import AuthProvider from "./Contexts/AuthProvider";
 import PrivateRoute from "./PrivateRoute/PrivateRoute";
 import ProductContainer from "./pages/AddProducts/ProductContainer";
 import OrderProduct from "./pages/Home/OrderProduct/OrderProduct";
+import OrderForm from "./pages/Home/OrderForm/OrderForm";
 
 function App() {
   return (
@@ -18,7 +19,15 @@ function App() {
             <Route path="/" element={<Home />}></Route>
             <Route path="/home" element={<Home />}></Route>
             <Route path="/contact" element={<ContactUs />}></Route>
-            <Route path="/order/:orderId" element={<OrderProduct />}></Route>
+            <Route path="/orderform" element={<OrderForm />}></Route>
+            <Route
+              path="/order/:orderId"
+              element={
+                <PrivateRoute>
+                  <OrderProduct />
+                </PrivateRoute>
+              }
+            ></Route>
             <Route path="/addproduct" element={<ProductContainer />}></Route>
             <Route path="/loginheader" element={<LoginHeader />}></Route>
             <Route path="/registerheader" element={<RegisterHeader />}></Route>

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Button, Container } from "react-bootstrap";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import "./OrderProduct.css";
 
 const OrderProduct = () => {
@@ -19,7 +19,9 @@ const OrderProduct = () => {
           <h5 className="card-title">{product.name}</h5>
           <p className="card-text">{product.description}</p>
           <p className="card-text">$ {product.price}</p>
-          <Button className="w-100">Purchase</Button>
+          <Link to="/orderform">
+            <Button className="w-100">Purchase</Button>
+          </Link>
         </div>
       </div>
     </Container>
